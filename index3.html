@@ -1,0 +1,48 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>Zadanie 2c</title>
+        <link rel="Stylesheet" href="style.css" type="text/css">
+	</head>
+	<body>
+	<form>
+        <div class="outside">
+		Proszę wypełnić poniższy formularz:
+			<div class="inside"><div>Imię:</div><div><input type="text" name="imie"></div></div>
+			<div class="inside"><div>Nazwisko:</div><div><input type="text" name="nazwisko"></div></div>
+			<div class="inside"><div>Ulica:</div><div><input type="text" name="ulice"></div></div>
+			<div class="inside"><div>Numer domu:</div><div><input type="text" name="numerdomu"></div></div>
+			<div class="inside"><div>Numer mieszkania:</div><div><input type="text" name="numermieszkania"></div></div>
+			<div class="inside"><div>Miasto:</div><div><input type="text" name="miasto"></div></div>
+			<div class="inside"><div>Województwo:</div>
+				<div>
+					<select name="Województwo">
+						<option>Pomorskie</option><option>Zachodnio-Pomorskie</option><option>Lubuskie</option><option>Wielkopolskie</option><option>Dolnośląskie</option><option>Opolskie</option><option>Śląskie</option>
+						<option>Łódzkie</option><option>Kujawsko-Pomorskie</option><option>Warmińsko-Mazurskie</option><option>Mazowieckie</option><option>Świętokrzyskie</option><option>Małopolskie</option>
+						<option>Podlaskie</option><option>Lubelskie</option><option>Podkarpackie</option>
+					</select>
+				</div>
+			</div>
+			<div class="inside"><div>Data Urodzenia:</div>
+				<div>
+					Rok:<input type="text" name="rok" maxlength="4" size="4">
+					Miesiąc:<select name="Miesiąc">
+						<option>1</option><option>2</option><option>3</option><option>4</option><option>5</option><option>6</option><option>7</option><option>8</option><option>9</option><option>10</option><option>11</option><option>12</option>
+					</select>
+					Dzień:<select name="Dzień">
+						<option>1</option><option>2</option><option>3</option><option>4</option><option>5</option><option>6</option><option>7</option><option>8</option><option>9</option><option>10</option><option>11</option><option>12</option>
+						<option>13</option><option>14</option><option>15</option><option>16</option><option>17</option><option>18</option><option>19</option><option>20</option><option>21</option><option>22</option><option>23</option><option>24</option>
+						<option>25</option><option>26</option><option>27</option><option>28</option><option>29</option><option>30</option><option>31</option>
+					</select>
+				</div>
+			</div>
+			<div class="inside"><div>Prawo jazdy:</div><div><input type="checkbox" name="prawo"></div></div>
+			<div class="inside"><div>Płeć:</div><div>K<input type="radio" name="plec" value="k">M<input type="radio" name="plec" value="m">Inne<input type="radio" name="plec" value="i"></div></div>
+			<div class="inside"><div>Telefon:</div><div><input type="text" name="telefon" maxlength="9"></div></div>
+			<div class="inside"><div>Uwagi:</div><div><textarea name="uwagi" rows="10" cols="30">Uwagi:</textarea></div></div>
+			<div class="inside"><div>Wyślij formularz:</div><div><input type="reset" name ="reset" value = "Czyść"><input type="submit" name="send" value="Wyślij"></div></div>
+	    </div>
+    </form>
+	</body>
+</html>
